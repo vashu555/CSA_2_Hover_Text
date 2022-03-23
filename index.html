@@ -1,16 +1,24 @@
-<html>
-  <head>
-<script type="text/javascript" src="https://raw.githubusercontent.com/vashu555/CSA_2_Hover_Text/main/jHover.js"></script>
-  </head>
-  <body>
+
+
+  
 
 <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/vashu555/CSA_2_Hover_Text/main/style.css">
 <div id="hover">Test</div>
 
-
+<script type="text/javascript">
+  document.getElementById("hoverimg".addEventListener("mousemove",movingMouse);
+                          
+  var counter=0;
+                          
+                          function movingMouse(){
+    ++counter;
+    document.getElementById("hoverimg").innerHTML=counter;
+  }
+  
+    
+</script>
 
 <img src="https://raw.githubusercontent.com/vashu555/CSA_2_Hover_Text/main/Rose.jpg" class="hoverimg" text="I am a Rose">
 
-  </body>
-</html>
+
 
